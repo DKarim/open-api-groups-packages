@@ -6,6 +6,7 @@ micronaut:
       visible:
         common-exclude: true
         packages: com.example.visible.*
+        packages-exclude: com.example
 #        primary: true
         # Seems overridden by the annotation title/version
 #        filename: visiblegroup
