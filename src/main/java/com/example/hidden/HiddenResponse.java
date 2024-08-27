@@ -4,13 +4,13 @@ import io.micronaut.core.annotation.Introspected;
 
 @Introspected
 public class HiddenResponse {
-    private HiddenEnum hiddenEnum;
+    private HiddenEnumOK hiddenEnumOK;
 
-    public HiddenEnum getHiddenEnum() {
-        return hiddenEnum;
+    public HiddenEnumOK getHiddenEnum() {
+        return hiddenEnumOK;
     }
 
-    public void setHiddenEnum(HiddenEnum hiddenEnum) {
-        this.hiddenEnum = hiddenEnum;
+    public void setHiddenEnum(HiddenEnumOK hiddenEnumOK) {
+        this.hiddenEnumOK = hiddenEnumOK;
     }
 }
