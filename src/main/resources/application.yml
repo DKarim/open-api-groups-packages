@@ -1,0 +1,8 @@
+micronaut:
+  application:
+    name: openapi-groups
+  openapi:
+    groups:
+      visible:
+        common-exclude: true
+        packages: com.example.visible.*
