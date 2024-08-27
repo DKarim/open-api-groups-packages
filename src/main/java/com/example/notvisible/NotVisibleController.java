@@ -8,7 +8,7 @@ public class NotVisibleController {
 
 
     @Get
-    public NotVisibleDTO index() {
-        return new NotVisibleDTO();
+    public NotVisibleResponse index() {
+        return new NotVisibleResponse();
     }
 }

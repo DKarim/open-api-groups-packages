@@ -4,5 +4,8 @@ micronaut:
   openapi:
     groups:
       visible:
+        primary: true
         common-exclude: true
         packages: com.example.visible.*
+        # Seems overridden by the annotation
+#        filename: visiblegroup

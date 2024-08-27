@@ -7,7 +7,7 @@ import io.micronaut.http.annotation.Get;
 public class VisibleController {
 
     @Get
-    public VisibleDTO index() {
-        return new VisibleDTO("This DTO should appear in schema");
+    public VisibleResponse index() {
+        return new VisibleResponse("This DTO should appear in schema");
     }
 }

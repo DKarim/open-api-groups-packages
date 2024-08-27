@@ -1,8 +1,9 @@
 package com.example.hidden;
 
-//import java.time.ZoneId;
+import io.micronaut.core.annotation.Introspected;
 
-public class HiddenDTO {
+@Introspected
+public class HiddenResponse {
     private HiddenEnum hiddenEnum;
 
     public HiddenEnum getHiddenEnum() {

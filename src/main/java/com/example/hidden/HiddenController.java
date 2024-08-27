@@ -9,7 +9,7 @@ import io.swagger.v3.oas.annotations.Hidden;
 public class HiddenController {
 
     @Get
-    public HiddenDTO index() {
-        return new HiddenDTO();
+    public HiddenResponse index() {
+        return new HiddenResponse();
     }
 }

@@ -1,9 +1,9 @@
 package com.example.visible;
 
-public class VisibleDTO {
+public class VisibleResponse {
     private String visibleField;
 
-    public VisibleDTO(String visibleField) {
+    public VisibleResponse(String visibleField) {
         this.visibleField = visibleField;
     }
 
